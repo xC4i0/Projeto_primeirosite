@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* Paleta de cores 
+    #146607 -> Mais escura
+    #6AEA56 -> clarinha
+    #2AE50F -> verdinha
+    #2E6626 -> Escura clarinha
+    #23B30C  -> Verdinha escura
+*/
+
+
+body {
+    background-color: #EBE5C5;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient( #2AE50F, #17690a);
+    padding: 1px;
+    color: white;
+}
+
+
+ul {
+    margin: 1px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+nav > ul > li > a:hover {
+    background-color: #23B30C;
+    color: #146607;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 18px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    padding: 9px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+    font-family: idroid;
+    width: 690px;
+    height: 30px;
+    padding-left: 10px;
+    background-image: linear-gradient(to right,#2ce50f60  , #6aea5617  );
+    color: #2AE50F;
+}
+
+section {
+    background-color: color;
+}
+
+.menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.paragrafomenu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.principal {
+    font-family: idroid;
+    color: #2AE50F;
+}
+
+
+p#textos {
+    font-family: PT mono;
+    font-size: 19px;
+    text-indent: 50px;
+    padding: 2pxpx;
+}
+
+.linktexto {
+    text-decoration: none;
+    color: #23B30C ;
+    background-color: #6aea5646 ;
+}
+
+.linktexto:hover {
+    text-decoration: underline;
+}
+
+.imgg {
+    display: block;
+    margin: auto;
+}
+
+
+section {
+    background-color:#2ce50f5b ;
+}
+
+h3 {
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #17690a;
+}
+
+
+ol {
+    text-decoration: none;
+    width:  800px;
+    columns:2;
+}
+
+
+.lista {
+    display: block;
+}
+
+
+footer {
+    background-color: #17690a;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
